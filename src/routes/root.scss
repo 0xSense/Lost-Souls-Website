@@ -10,3 +10,60 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.CardWrapper {
+  background-color: white;
+  height: 300px;
+  max-width: 40%;
+  border-radius: 8px;
+  border-style: solid;
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  white-space: normal;
+  inline-size: 200px;
+  margin-left: 10px;
+}
+
+.SoulSVG {
+  width: 30%;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.CardText {
+  padding-left: 10px;
+  align-items: center;
+}
+
+.ProjectCard {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.RootWrapper {
+  margin-left: 10px;
+}
+
+.AboutWrapper {
+  display: grid;
+
+}
+
+.ProjectDescription {
+  color: white;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.AboutDescription {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  color: #47fee3
+}
