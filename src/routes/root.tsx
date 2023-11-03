@@ -19,7 +19,7 @@ export default function Root() {
               </div>
             </div>
             <div className="ProjectDescription">
-              GameJam group who assembled during November 2023 to create their first game thogether to attempt to making the best possible game with a month span
+              GameJam group who assembled during November 2023 to create their first game together to attempt to making the best possible game within a month span
             </div>
           </div>
          
@@ -29,6 +29,9 @@ export default function Root() {
       <div>
         <div className="ProjectCard">
             <a href="https://github.com/0xSense/Devil-Chess">Project Name: Devil Chess</a>
+        </div>
+        <div className="ProjectCard">
+            <a href="https://github.com/0xSense/Game-Jam-project-name-unknown">Game off 2023</a>
         </div>
 
       </div>
