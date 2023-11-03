@@ -7,9 +7,16 @@
        url('./fonts/Roboto/roboto-regular-webfont.woff') format('woff')
 }
 
+@font-face {
+  font-family: Minecraft;
+  font-weight: normal;
+  src: url("./assets/font/Minecraft.ttf");
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Minecraft;
   line-height: 1.5;
+  background-color: #211c1f;
   font-weight: normal;
   color-scheme: light dark;
   font-synthesis: none;
